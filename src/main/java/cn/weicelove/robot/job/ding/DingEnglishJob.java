@@ -49,7 +49,7 @@ public class DingEnglishJob {
         OapiRobotSendRequest.At at = new OapiRobotSendRequest.At();
         //at.setAtMobiles(Arrays.asList("132xxxxxxxx"));
         // isAtAll类型如果不为Boolean，请升级至最新SDK
-        at.setIsAtAll(true);
+        at.setIsAtAll(false);
         request.setAt(at);
 
 //        request.setMsgtype("link");
